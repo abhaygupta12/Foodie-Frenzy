@@ -11,7 +11,32 @@
 The frontend of the application is built using ReactJS, which provides a fast and responsive user interface. The backend of the application is built using Node.js and Express, which provides a scalable and robust server-side infrastructure.
 
 The application uses a REST API to communicate between the frontend and backend. The API is built using Express and provides endpoints for retrieving restaurant menus, submitting orders.
-
+<h2>Languages and Tech Stack Showcased in the Application</h2>
+<ul>
+  <h3>1.Frontend:</h3>
+  <li>ReactJS</li>
+  <li>HTML/CSS/JavaScript</li><br>
+ <h3>2.Backend:</h3>
+ <li>Node.js</li>
+ <li>Express.js</li>
+ <li>MongoDB</li>
+ <li>Mongoose.js</li>
+</ul>
+<h2>3.All REST API Endpoints which has implemented using Node.js and Express.js in this application.</h2>
+<p>
+GET /location - To get the list of all cities<br>
+GET /restro - To get the list of all restaurants<br>
+GET /restro?state_id={id} - To get the list of restaurants in a specific city<br>
+GET /mealtype - To get the list of all meal types<br>
+GET /restro?meal_id={id}&state_id={id} - To get the list of restaurants based on meal type and city<br>
+GET /restro?meal_id={id} - To get the list of restaurants based on meal type<br>
+GET /restro?state_id={id} - To get the list of restaurants in a specific city<br>
+GET /filter/{id}?cuisine={id}&lcost={value}&hcost={value} - To get the list of restaurants based on filters like cuisine, cost.<br>
+GET /detail/{id} - To get the details of a specific restaurant<br>
+GET /menu/{id} - To get the menu of a specific restaurant<br>
+POST /orders - To place an order<br>
+GET /orders - To get the list of all orders<br>
+</p>
 <h2>Features</h2>
 
 <ul>
@@ -42,7 +67,7 @@ Foodie Frenzy will also provide a secure authentication system for users, which 
 <h3>Add item from Resturant Page</h3>
   <img src ="./Project View/Add item.png">
   
-  <p>Discover the best food & drinks that are perfect for foodies everywhere.</p>
+<p>Discover the best food & drinks that are perfect for foodies everywhere.</p>
 <p>Foodie Frenzy is a comprehensive food discovery platform that caters to foodies everywhere. With a vast collection of restaurants, cafes, and bars, our app discover the best food and drinks that satisfy your taste buds and share your experiences with like-minded food lovers. From breakfast to dinner and everything in between, Foodie Frenzy has got you covered.<p>
 
 
