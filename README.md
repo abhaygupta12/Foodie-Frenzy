@@ -1,7 +1,7 @@
 <h1>Foodie Frenzy</h1>
+<p>Foodie Frenzy is a web application that provides users with a wide range of restaurant options based on their location, cuisine preference, and budget. The application also allows users to view restaurant details, menus, and place orders. The main objective of this application is to provide a convenient and user-friendly platform for foodies to discover and order their favorite food and drinks from the best restaurants according to selected city. The application aims to simplify the process of finding and ordering food, making it a hassle-free experience for users.</p>
 
-<p>Discover the best food & drinks that are perfect for foodies everywhere.</p>
-<p>Foodie Frenzy is a comprehensive food discovery platform that caters to foodies everywhere. With a vast collection of restaurants, cafes, and bars, our app discover the best food and drinks that satisfy your taste buds and share your experiences with like-minded food lovers. From breakfast to dinner and everything in between, Foodie Frenzy has got you covered.<p>
+
  
 
 <h2>Project Description</h2>
@@ -41,6 +41,9 @@ Foodie Frenzy will also provide a secure authentication system for users, which 
   <img src = "./Project View/detail_particular_resturant.png">
 <h3>Add item from Resturant Page</h3>
   <img src ="./Project View/Add item.png">
+  
+  <p>Discover the best food & drinks that are perfect for foodies everywhere.</p>
+<p>Foodie Frenzy is a comprehensive food discovery platform that caters to foodies everywhere. With a vast collection of restaurants, cafes, and bars, our app discover the best food and drinks that satisfy your taste buds and share your experiences with like-minded food lovers. From breakfast to dinner and everything in between, Foodie Frenzy has got you covered.<p>
 
 
 
