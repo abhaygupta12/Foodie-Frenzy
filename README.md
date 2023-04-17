@@ -1,3 +1,70 @@
+<h1>Foodie Frenzy</h1>
+
+<p>Discover the best food & drinks that are perfect for foodies everywhere.</p>
+<p>Foodie Frenzy is a comprehensive food discovery platform that caters to foodies everywhere. With a vast collection of restaurants, cafes, and bars, our app discover the best food and drinks that satisfy your taste buds and share your experiences with like-minded food lovers. From breakfast to dinner and everything in between, Foodie Frenzy has got you covered.<p>
+ 
+
+<h2>Project Description</h2>
+
+<p>Foodie Frenzy is a full-stack web application that allows users to search for and explore various restaurants and cuisines, read reviews and ratings, and place orders for delivery or pickup. The app is built using React.js for the frontend, Node.js and Express for the backend, and MongoDB for the database.</p>
+
+The frontend of the application is built using ReactJS, which provides a fast and responsive user interface. The backend of the application is built using Node.js and Express, which provides a scalable and robust server-side infrastructure.
+
+The application uses a REST API to communicate between the frontend and backend. The API is built using Express and provides endpoints for retrieving restaurant menus, submitting orders.
+
+<h2>Features</h2>
+
+<ul>
+  <li>Search for restaurants and cuisines by location or keyword</li>
+  <li>View restaurant details, including photos, menu items, and reviews</li>
+  <li>Place orders for delivery or pickup</li>
+  <li>View order history and status</li>
+</ul>
+
+
+<h2>Future Work</h2>
+<ul>
+<li>Login & Authentication for Create and manage user accounts</li>
+Foodie Frenzy will also provide a secure authentication system for users, which allows them to create accounts and securely manage their personal information.
+<li>Payment Gateway</li>
+</ul>
+<h1>Project View</h1>
+<h3>Home Page </h3>
+  <img src = "./Project View/Home Page.png">
+<h3>Quick Search Page</h3>
+  <img src = "./Project View/Quick search page.png">
+<h3>Listing Page</h3>
+  <img src = "./Project View/Listing Page.png">
+<h3>Listing Menu Page</h3>
+  <img src = "./Project View/Listing Page-2.png">
+<h3>Detail for Resturant Page</h3>
+  <img src = "./Project View/detail_particular_resturant.png">
+<h3>Add item from Resturant Page</h3>
+  <img src ="./Project View/Add item.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
