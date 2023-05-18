@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding:0px 50px;
+    align-items: center;
+    background-color:#FFFBF7;
+    position: relative;
+}
+nav span
+{
+    color:black;
+    font-size: 40px;
+    font-weight: 700;
+}
+nav span a
+{
+    color:black;
+    text-decoration: none;
+}
+nav img
+{
+    width: 40px;
+    margin:0px 10px;
+}
+nav ul li
+ {
+    display: inline-block;
+    margin:0px 20px;
+    font-size: 20px;
+    
+}
+nav ul li a
+{
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* section2 start */
+#section2 
+{
+    
+    background-image: url(../public/img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.overlaylist
+{
+    background-color: rgba(0, 0, 0, 0.452);
+    height:calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+#section2 h1
+{
+    padding-top:300px;
+    font-size:80px;
+    color: white;
+
+}
+#section2 p
+{
+    font-size: 20px;
+    color:white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+#section2 .icon
+{
+   font-size: 17px;
+    color:rgb(199, 199, 199);
+    padding-left:20px;
+}
+#section2 form
+{
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#section2 input
+{
+    padding:10px;
+    width: 400px;
+    border:none;
+    border:none;
+}
+#section2 select
+{
+    padding:10px;
+    width: 200px;
+    border:none; 
+    border: none;
+    font-size: 18px;
+    border-right: 3px solid black;
+}
+#section2 input:focus , #section2 select:focus
+{
+    outline: none;
+}
+#section2 input::placeholder
+{
+    font-size: 18px;
+}
+optgroup{
+    font-size: 18px;
+}
+.category
+{
+    display: flex;
+  
+    flex-wrap: wrap ;
+    justify-content: space-between;
+} #section3 .box{ 
+    margin:10px 0px;
+} 
+
+/* #section3 start */
+#section3
+{
+    padding:50px 0px;
+    
+}
+
+#section3 .box img
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+#section3 .box p{
+    text-align: center;
+}
+#section3 .box p a 
+{
+    font-size: 20px;
+    font-weight: 400;
+   text-decoration: none;
+    color:black;
+}
+#section3 .box
+{
+   box-shadow: 0px 0px 10px 2px rgb(206, 206, 206);
+    padding-bottom: 10px;
+    /* background-color: whitesmoke; */
+    /* box-radius: 20px 20px 0px 0px; */
+    border-radius: 20px;
+    transition: all 1s;
+    width: 100%;
+}
+#section3 h2
+{
+   font-size: 30px;
+}
+#section3 p
+{
+    font-size: 20px;
+    padding-top:10px;
+}
+#section3 .box:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+#section4 .container
+{
+    display: flex;
+     
+}
+#section4
+{
+    padding:50px 0px;
+    background-color: #FFFBF7;
+}
+#section4 h2
+{
+    font-size: 40px;
+    padding-top: 170px;
+}
+#section4 p
+{
+    font-size: 20px;
+    margin:10px 0px;
+}
+#section4 input
+{
+    font-size: 20px;
+    width: 400px;
+    padding:10px;
+}
+#section4 button{
+    padding:10px 30px;
+    font-size: 20px;
+    background-color: #E03546;
+    border:none;
+    color:white;
+}
+footer
+{
+    padding:20px 0px;
+}
+
+nav #check
+{
+    display: none;
+}
+nav label
+{
+    display: none;
+    position: absolute;
+    right: 20px;
+   
+}
+nav label i{
+    font-size: 25px;
+    cursor:pointer;
+}
+.img-index
+{
+    width: 400px;
+}
+
+.bg-model
+{
+    width : 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    position: absolute;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: display 1s;
+}
+.bg-model.active
+{
+    display: flex;
+}
+.model-content
+{
+    width: 50vw;
+    height:460px;
+    background-color: black;
+    position: relative;
+}
+
+.model-content span
+{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top:20px;
+    right:20px;
+    cursor: pointer;
+}
+.model-content .content
+{
+   padding: 20px;
+}
+.model-content h2
+{
+    font-size: 60px;
+    font-weight: 700;
+    color:#DAAD01;
+    padding-top: 30px;
+
+}
+.model-content h3
+{
+    font-size: 30px;
+    color:white;
+    padding:10px 0px;
+    
+}
+.model-content p 
+{
+    font-size: 20px;
+    color:white;
+    font-weight: 200;
+
+}
+.model-content a 
+{
+    display: inline-block;
+    background-color: #DAAD01;
+    padding:10px 20px;
+    color:white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.footer
+{
+   background-color:#FFFBF7 ;
+   color: black;
+   padding: 20px;
+   text-align: center;
+}
+.myDark
+{
+    background-color: black;
+    color:white !important ;
+}
+#mode
+{
+    cursor: pointer;
+}
+@media only screen and (max-width : 420px)
+{
+    nav 
+    {
+        padding:0px 20px;
+        height: 60px;
+    }
+    nav label
+    {
+        display: block;
+    }
+    nav ul
+    {
+        position: absolute;
+        top:62px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.863);
+        left:-100%;
+        height:100vh;
+        transition: all 2s;
+    }
+    nav ul li
+    {
+        display: block;
+        text-align: center;
+        margin:20px 0px;
+    }
+    nav ul li a
+    {
+        color:white;
+    
+    }
+    #check:checked ~ul
+    {
+        left:0;
+    }
+    .img-index
+    {
+        width: 100%;
+    }
+  
+}
+.form-body
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+.inputfield
+{
+    padding: 5px 10px;
+    width:48%;
+    margin:10px;
+    border-radius: 5px;
+}
+.form-button
+{
+    padding: 5px 10px;
+    margin :10px
+    
+   
+}
+.selectedItems
+{
+    display: flex;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.orderItem
+{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 2px;
+    margin: 20px;
+}
+.productImage
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.productprice
+{
+    font-size: 20px;
+}

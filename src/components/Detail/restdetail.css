@@ -1,0 +1,40 @@
+#section1singleProductPage
+{
+    padding:50px 0px;
+}
+#section1singleProductPage.content h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top:30px;
+}
+#section1singleProductPage.content .desc
+{
+    font-size: 18px;
+    margin:10px 0px;
+}
+#section1singleProductPage.content h3
+{
+    font-weight: 400;
+}
+.opentime
+{
+    font-size: 18px;
+    margin:10px 0px;
+}
+.rating
+{
+    background-color: #26A541;
+    padding:3px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.links a
+{
+    font-size: 20px;
+    display: inline-block;
+    margin:10px 20px 10px 0px;
+    padding:10px 30px;
+    color:white;
+    text-decoration: none;
+}

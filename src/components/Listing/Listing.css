@@ -1,0 +1,129 @@
+#sections
+{
+
+    text-align: center;
+    background-image: url("../../../public/img/listing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay
+{
+    height: 60vh;
+}
+#sections h2
+{
+    font-size: 80px;
+    color:white;
+    padding-top:30px;
+}
+#sections p
+{
+    color:white;
+    /* width: 800px; */
+    font-size: 25px;
+     text-align: center;
+}
+#section1 .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sideSection1
+{
+    box-shadow: 0px 0px 9px 1px rgba(175, 175, 175, 0.466);
+    padding:20px;
+
+}
+.sideSection1 h2
+{
+    font-size: 30px;    
+    font-weight: 500;
+}
+.option 
+{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.option label
+{
+    font-size: 20px;
+}
+.sideSection1 p
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.productbox
+{
+    display: flex;
+    margin-bottom:30px;
+    box-shadow: 0px 0px 9px 1px rgba(175, 175, 175, 0.466);
+    border-radius: 10px;
+
+}
+.productbox img
+{
+    border-radius: 10px 0px 0px 10px;
+}
+.productbox h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+#section1
+{
+    padding:100px 0px;
+}
+.foodcontent
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin:10px 0px;
+
+}
+.rating
+{
+    background-color: #24963F;
+    padding:3px 7px;
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.rating i
+{
+    font-size: 10px;
+   
+}
+.othercontent
+{
+    padding:20px;
+}
+.price
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin:10px 0px;
+}
+
+.productbox .col-lg-5
+{
+    padding:0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* background-image: url("../../../public/img/1."); */
